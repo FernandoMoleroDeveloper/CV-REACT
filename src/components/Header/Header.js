@@ -7,7 +7,7 @@ const Header = () => {
     return(
     <div >
         <Flex className='header'>
-        <Box className='header__text'>
+        <Box textAlign={"start"} className='header__text'>
             <Text  fontSize='6xl' fontWeight='bold'>¡Hola! Me llamo</Text>
             <Text
             
