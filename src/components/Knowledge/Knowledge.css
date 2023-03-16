@@ -1,0 +1,24 @@
+.knowledge {
+  margin: 0 auto;
+  display: grid;
+  grid-template: 300px 300px / 300px 300px;
+  grid-gap: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.knowledge__title {
+  font-weight: 700;
+}
+
+.knowledge__text {
+  font-size: 10px;
+  margin: 10px;
+}
+
+.knowledge__link {
+  font-size: 10px;
+  text-decoration: underline;
+  color: blue;
+  margin: 10px;
+}

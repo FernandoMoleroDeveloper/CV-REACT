@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Contact from './components/Contact/Contact';
+import Header from './components/Header/Header';
+import Knowledge from './components/Knowledge/Knowledge';
+import { Text } from '@chakra-ui/react'
+//import { Button, Stack } from '@chakra-ui/react';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header></Header>
+      
+      <Text  color='Black' fontSize='3xl'>Puedes contactar conmigo a través de las siguientes vías:</Text>
+      <Contact></Contact>
+      <Text  color='Black' fontSize='3xl'>Estos son algunos de mis conocimientos</Text>
+      
+      <Knowledge></Knowledge>
     </div>
   );
 }
