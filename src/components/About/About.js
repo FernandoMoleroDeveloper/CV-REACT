@@ -79,7 +79,7 @@ const About = () => {
                     borderRadius={20}
                     
                 >Durante veinte años he desarrollado mi actividad como fotógrafo profesional,
-                    con mi propio estudo de fotografía durante los últimos 15 años.
+                    con mi propio estudio de fotografía durante los últimos 15 años.
                     <br></br>
                     Durante el confinamiento me decidí a cambiar la web de mi empresa con wordpress y viendo que se me daba bien, decidí formarme en
                     desarrollo web.<br></br>

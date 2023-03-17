@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Knowledge from './components/Knowledge/Knowledge';
 import { Text } from '@chakra-ui/react'
 import About from './components/About/About';
+import Projects from './components/Projects/Projects';
 //import { Button, Stack } from '@chakra-ui/react';
 function App() {
   return (
@@ -22,6 +23,10 @@ function App() {
 
       <About></About>
       <br className="header"></br>
+
+      <Projects></Projects>
+      <br></br>
+      <br></br>
 
       <Text  color='Black' fontSize='2xl'>Estos son algunos de mis conocimientos</Text>
       <br></br>

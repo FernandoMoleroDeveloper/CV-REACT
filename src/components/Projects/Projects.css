@@ -1,0 +1,8 @@
+.project{
+    margin: 0 auto;
+    display: grid;
+    grid-template: 300px 300px / 300px 300px;
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: start;
+}
